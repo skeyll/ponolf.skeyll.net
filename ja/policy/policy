@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://skeyll.net/scripts/css/ponolf_sub.css">
+    <title>ポリシー - ポノルフ</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="content-language" content="ja">
+    <link rel="alternate" hreflang="en" href="https://ponolf.skeyll.net/policy">
+    <link rel="alternate" hreflang="ja" href="https://ponolf.skeyll.net/ja/policy">
+
+    <meta name="description" content="ポノルフはオンライン推理ゲームです。簡単な問題を作って、解答し、その答えを元にポノルフ探しの議論をします。最大12人対戦でゲーム内VCやテキストチャットに対応。さあ、今夜も話し合いをはじめよう。">
+    <meta name=”keywords” content="推理ゲーム, ボードゲーム, オンラインゲーム, パーティーゲーム, 正体秘匿ゲーム">
+
+  </head>
+  <body>
+    <div class="window">
+    <div class="layout-header layout-header--pos">
+      <div id="sidemenu"></div>
+    </div>
+    </div>
+
+
+    <div class="layout-main layout-main--size">
+        <div class="main-background">
+          <a href="https://ponolf.skeyll.net/" class="logo logo--pos">
+            <img src="https://skeyll.net/assets/ponolf/logo.webp" class="logo--prop" title="Back to Home" loading="lazy" alt="Ponolf Logo">
+          </a>
+          <div class="main_header main_header--pos">
+            <div class="main_header-language main_header-language--pos">
+              <a href="https://ponolf.skeyll.net/policy">English</a> / 日本語
+            </div>
+          </div>
+          <div class="main-title main-title--prop">
+            <div class="main-title--pos font-italic_bold">
+              <a href="#terms">利用規約</a> / <a href="#guide">ガイドライン</a>
+            </div>
+          </div>
+          <div class="main-contents">
+            <div class="content_title content_title--pos" id="terms">利用規約</div>
+            <div class="outline_content">
+              <ul>
+              <p>ポノルフ（以下、本サービスといいます。）はSkeyll（以下、私といいます。）が運営するオンラインゲームです。</p>
+              <h1>ネットワークに関して</h1>
+                <li>本サービスはネットワーク通信のためにEpic Online Services（以下、EOSといいます。）を使用しています。EOSはEpicGamesが提供するEOS SDK（以下、SDKといいます。）を通して使用されます。</li>
+                <li>本サービスはEOS <a href="https://dev.epicgames.com/ja/services/terms/agreements">デベロッパー契約</a>に基づき本サービス利用者（以下、利用者といいます）に提供されます。
+                  EOSはEPIC標準サービスが適用される範囲内でのみ使用され、EPICアカウントを含めた外部アカウント認証サービスなどは使用していません。</li>
+                <li>本サービスでEOSに初めてログインする際、SDKが端末ごとにユニークID（以下、DeviceIDといいます。）を発行します。以降、本サービスはそのDeviceIDを使用し、匿名のユーザーとしてEOSにログインします。DeviceIDは一意ですが、個人を特定できる情報は含まれていません。</li>
+                <li>ゲームプレイはp2p通信を介して行います。マッチングが締め切られた後、本サービス利用者同士がp2p通信に必要な情報を交換して通信します。これらの情報はマッチ外の利用者に知られることはなく、通信はSDKを介して行われ、全て暗号化されています。</li>
+              <h1>プライバシーに関して</h1>
+                <li>私はEOS上で個人を特定しない形で利用時間や国ごとのサービス利用者数などにくわえて、現在のロビー（マッチング）に参加している本サービスの利用者のDeviceIDを含む情報を確認できます。</li>
+                <li>これらはEOSを使用するために、EOSが標準で取得している統計情報です。これらの情報はEOS上でのみ管理されます。これらの情報は法的に要請があった場合を除き、第三者に開示・提供することはありません。私がこれらの情報を使用する場合、個人が特定されない形で、本サービスの運営・改善にのみ使用します。</li>
+                <li>EOSはAPIコール数、待ち時間、HTTPおよび内部ステータスコードなどをサービス品質の改善のために取得しています。これらはEOSを提供する目的以外では使用されません。必要な場合、EpicGamesの<a href="https://www.epicgames.com/site/ja/privacypolicy?lang=ja">プライバシーポリシー</a>も併せてご確認ください。</li>
+                <li>バグ報告で得た個人情報に関して、本サービスの改善・返信以外の目的で使用することはありません。削除が必要な場合はその旨も記載してご連絡してください。バグ修正に必要な情報を控えたのち、メールを削除します。</li>
+              <h1>サービスに関して</h1>
+                <li>本サービスではボイスチャットなど第三者と直接接触する機能が含まれます。利用者が12歳以下である場合、本サービスを利用することはできません。</li>
+                <li>本サービスを構成する文章、画像、プログラムその他一切の情報について発生している著作権、パブリシティ権その他の知的財産権、所有権その他の財産権および肖像権その他の人格権は、私または当該権利を有する第三者に帰属します。本利用規約は、明示的に定めがある場合を除き、利用者に本サービスに関する知的財産権等の権利を移転するものではありません。</li>
+                <li>ゲーム上に第三者が所有する商標に関する記述があります。私はその商標に関する権利を所有していません。使用に関して問題がある場合、商標所有者・関係者様からご連絡があれば該当箇所を削除します。</li>
+                <li>利用者が本サービスを利用するに際して、本サービス、あるいは他の利用者の権利・利益を著しく侵害する行為を行った場合、私は当該利用者に同様の行為を繰り返さないように要求すること、もしくは本サービスの利用を禁止することができるものとします。</li>
+                <li>サービスの安全性、セキュリティには最大限の注意を払っていますが、万一本サービスを通じて、あるいは利用者、第三者との間に不祥事・問題が起こった場合でも、私に故意または重大な過失がある場合を除き、私はいかなる責任も負いません。</li>
+                <li>私は、本サービスの運営・開発に関して最大限の誠意・努力をもって行いますが、問題が発生した場合、経済的、物理的、その他あらゆる理由で、本サービスの提供を中断、もしくは終了することができるものとします。</li>
+                <li>当利用規約に同意しない場合、本サービスの利用を中止、削除してください。その際、販売プラットフォームの規約に従い返品申請などを行ってください。</li>
+              <h1>当利用規約に関して</h1>
+                <li>上記の規約は変更されることがあります。その場合は事前にソーシャルメディア、またはウェブサイト上で告知後、変更します。</li>
+                <li>変更後に利用している場合、利用者は当利用規約の全ての記載内容に同意したものとみなします。</li>
+              <div class="policy-date--pos">2024年4月08日制定</div>
+              </ul>
+            </div>
+
+            <div class="content_title">
+              <div class="content_title--box content_title--pos" id="guide">ガイドライン</div>
+            </div>
+            <div class="outline_content">
+              <ul>
+                <h1>二次利用に関して</h1>
+                  <li>本サービスのゲームプレイによる二次利用（以下、二次利用といいます。）は、個人・法人問わず一律許可されています。二次利用、またその映像に関して、プラットフォーム、営利・非営利を問わず私は著作権を行使しません。</li>
+                  <li>二次利用の利用・公開方法に関して、私、利用者、もしくは第三者の利益・尊厳・名誉を不当に侵害する場合を除き、制限はありません。ゲーム実況以外の目的で直接本サービスを二次利用をする場合、同時利用人数分は購入するほか、販売プラットフォームの利用規約に従ってください。</li>
+                  <li>二次利用をするプラットフォームにゲームのカテゴリタグなどがある場合、Ponolfをタグに設定してください。Demo版を二次利用する場合、タグの設定に加えてPonolf製品版のストアページリンクを配信概要か定型コメントに記載してください。</li>
+                  <li>上記は本サービスの著作権譲渡を意味するものではありません。いかなる場合であっても、YoutubeContentIDなどをはじめとした本サービスの著作権を侵害する特約を取得することは禁止されています。また、私から削除依頼があった場合、本サービスによる動画を削除してください。</li>
+                  <li>上記を除く利用に関して許諾を希望する場合、メール(&#115;&#107;&#101;&#121;&#108;&#108;&#64;</span><span>&#115;&#107;&#101;&#121;&#108;&#108;&#46;&#110;&#101;&#116;)かウェブサイトの問い合わせフォームよりご連絡ください。</li></ul>
+            </div>
+          </div>
+          <div class="main-bottom">
+            Ponolf
+          </div>
+        </div>
+      </div>
+      <footer>
+      <div class="layout-footer layout-footer--pos">
+        <div class="footer-line">
+          <div class="footer-box">
+            <a href="https://skeyll.net/" class="footer-text copyright">&#169; 2024 Skeyll</a>
+          </div>
+        </div>
+      </div>
+      </footer>
+      </div>
+  </body>
+</html>
