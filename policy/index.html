@@ -98,5 +98,12 @@
       </div>
       </footer>
       </div>
+    <script>
+      fetch("https://skeyll.net/sidemenu.html")
+          .then(response => response.text())
+          .then(data => {
+              document.getElementById("sidemenu").innerHTML = data;
+          });
+    </script>
   </body>
 </html>

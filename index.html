@@ -27,7 +27,6 @@
         <img src="https://skeyll.net/assets/ponolf/title.webp" class="title-logo title-logo--size" title="Ponolf Title Logo" alt="Ponolf is a multiplayer deductive game. Create quizzes, answer them, and discuss about the some of them to deduce who got it wrong. Pick each other's brains with max 12 players to find out Ponolf.">
       </div>
       <div id="sidemenu"></div>
-      
       <div class="layout-main">
         <div class="pv">
             <a href="https://youtu.be/ANOj4hteWiY" class="pv--pos" >
@@ -61,7 +60,7 @@
       <div class="layout-footer layout-footer--pos">
         <div class="footer-line">
           <div class="footer-box">
-            <a href="https://skeyll.net/" class="footer-text copyright">&#169; 2024 Skeyll</a>
+            <a href="https://skeyll.net/" class="footer-text copyright">&#169; 2025 Skeyll</a>
             <a href="https://skeyll.net/policy" class="footer-text privacy">Privacy</a>
           </div>
         </div>
@@ -71,5 +70,12 @@
     <div class="layout-footer-back">
       <div class="layout-footer-back-box">WE ARE WATCHING YOU.</div>
     </div>
+    <script>
+      fetch("https://skeyll.net/sidemenu.html")
+          .then(response => response.text())
+          .then(data => {
+              document.getElementById("sidemenu").innerHTML = data;
+          });
+    </script>
   </body>
 </html>
